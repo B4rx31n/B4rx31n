@@ -1,52 +1,43 @@
 <div align="center">
 
-<!-- ======== TERMINAL WINDOW HERO ======== -->
+<!-- ======== FASTFETCH (real system info) ======== -->
 <div style="
   background:#0a0f1e;
   border:1px solid #1e2b4a;
   border-radius:12px;
-  padding:0;
-  width:100%;
-  max-width:760px;
-  margin:0 auto;
-  box-shadow:0 0 24px rgba(0,229,255,0.12);
+  padding:18px 20px;
+  display:inline-block;
+  text-align:left;
+  box-shadow:0 0 24px rgba(0,229,255,0.10);
 ">
-  <div style="
-    background:#101a33;
-    border-bottom:1px solid #1e2b4a;
-    border-radius:12px 12px 0 0;
-    padding:10px 16px;
-    font-family:'JetBrains Mono',Consolas,monospace;
-    font-size:12px;
-    color:#4a5f8a;
-    text-align:left;
-  ">
-    <span style="color:#ff5f57;">&#9679;</span>
-    <span style="color:#febc2e;">&#9679;</span>
-    <span style="color:#28c840;">&#9679;</span>
-    &nbsp;&nbsp;baariqh@secure-shell: ~/profile
-  </div>
-  <div style="
+  <pre style="
     font-family:'JetBrains Mono',Consolas,monospace;
     font-size:13px;
-    color:#7aa2f7;
-    text-align:left;
-    padding:18px 20px 6px 20px;
-    line-height:1.7;
+    line-height:1.5;
+    margin:0;
+    overflow-x:auto;
+    white-space:pre;
   ">
-    <span style="color:#00e5ff;">$</span> whoami
-    <br>
-    <span style="color:#a9b8e8;">Baariqh</span> <span style="color:#4a5f8a;">// full-stack developer</span>
-    <br>
-    <span style="color:#00e5ff;">$</span> cat skills.txt
-    <br>
-    <span style="color:#a9b8e8;">PHP&nbsp;&middot;&nbsp;Laravel&nbsp;&middot;&nbsp;Blade&nbsp;&middot;&nbsp;JavaScript&nbsp;&middot;&nbsp;C&nbsp;&middot;&nbsp;Python</span>
-    <br>
-    <span style="color:#00e5ff;">$</span> status
-    <br>
-    <span style="color:#28c840;">[ACTIVE]</span> <span style="color:#a9b8e8;">building web apps, CRUD systems, and tools that ship</span>
-    <br><br>
-  </div>
+<span style="color:#00e5ff;">                  -`                      </span><span style="color:#e6f1ff;">barxein@archlinux</span>
+<span style="color:#00e5ff;">                 .o+`                     </span><span style="color:#4a5f8a;">------------------------------</span>
+<span style="color:#00e5ff;">                `ooo/                     </span><span style="color:#00e5ff;">OS: </span><span style="color:#e6f1ff;">Arch Linux x86_64</span>
+<span style="color:#00e5ff;">               `+oooo:                    </span><span style="color:#00e5ff;">Host: </span><span style="color:#e6f1ff;">ThinkPad X390 (20Q1S3JV00)</span>
+<span style="color:#00e5ff;">              `+oooooo:                   </span><span style="color:#00e5ff;">Kernel: </span><span style="color:#e6f1ff;">Linux 7.2.6-arch2-1</span>
+<span style="color:#00e5ff;">              -+oooooo+:                  </span><span style="color:#00e5ff;">Packages: </span><span style="color:#e6f1ff;">922 (pacman), 7 (flatpak)</span>
+<span style="color:#00e5ff;">            `/:-:++oooo+:                 </span><span style="color:#00e5ff;">Shell: </span><span style="color:#e6f1ff;">bash 5.3.20</span>
+<span style="color:#00e5ff;">           `/++++/+++++++:                </span><span style="color:#00e5ff;">Display: </span><span style="color:#e6f1ff;">1366x768 13", 60 Hz</span>
+<span style="color:#00e5ff;">          `/++++++++++++++:               </span><span style="color:#00e5ff;">DE: </span><span style="color:#e6f1ff;">GNOME 50.5</span>
+<span style="color:#00e5ff;">         `/+++ooooooooooooo/`             </span><span style="color:#00e5ff;">WM: </span><span style="color:#e6f1ff;">Mutter (Wayland)</span>
+<span style="color:#00e5ff;">        ./ooosssso++osssssso+`            </span><span style="color:#00e5ff;">WM Theme: </span><span style="color:#e6f1ff;">Adwaita</span>
+<span style="color:#00e5ff;">       .oossssso-----/ossssss+`           </span><span style="color:#00e5ff;">Theme: </span><span style="color:#e6f1ff;">Adwaita [GTK2/3/4]</span>
+<span style="color:#00e5ff;">      -osssssso.      :ssssssso.          </span><span style="color:#00e5ff;">Icons: </span><span style="color:#e6f1ff;">Adwaita [GTK2/3/4]</span>
+<span style="color:#00e5ff;">     :osssssss/        osssso+++.         </span><span style="color:#00e5ff;">Font: </span><span style="color:#e6f1ff;">Adwaita Sans 11pt [GTK2/3/4]</span>
+<span style="color:#00e5ff;">    /osssssss/        +ssssooo/-          </span><span style="color:#00e5ff;">Cursor: </span><span style="color:#e6f1ff;">Adwaita 24px</span>
+<span style="color:#00e5ff;">  `/ossssso+/:-        -:/+osssso+-       </span><span style="color:#00e5ff;">CPU: </span><span style="color:#e6f1ff;">Intel Core i5-8365U (8) @ 4.10 GHz</span>
+<span style="color:#00e5ff;"> `+sso+:-`                 `.-:+oso:      </span><span style="color:#00e5ff;">GPU: </span><span style="color:#e6f1ff;">Intel UHD Graphics 620 @ 1.10 GHz</span>
+<span style="color:#00e5ff;">`++:.                           `-/+o+`.  </span><span style="color:#00e5ff;">Memory: </span><span style="color:#e6f1ff;">15.27 GiB total</span>
+<span style="color:#00e5ff;">.`                                 `/     </span><span style="color:#00e5ff;">Disk (/): </span><span style="color:#e6f1ff;">232.69 GiB - ext4</span>
+  </pre>
 </div>
 
 <!-- ======== NAME ======== -->
